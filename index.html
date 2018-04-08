@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+	
+		<title>Code as String</title>
+		<meta charset = "UTF-8">
+	
+	</head>
+	
+	
+	<!--
+		NOTE:
+		===============================================================================================
+		
+		Because of simplicity & demonstration purposes, the "style" attribute is used within html tags.
+		Nevertheless it is recommended to use CSS for styling.
+		
+		In '<body>' the 'style="text-align:center;"' 
+		centers similar like the tag '<center>' which was used in the previous mini-projects.
+		
+		Some tag attributes are put into new lines, to improve the readability.
+		
+		===============================================================================================
+	-->
+	
+	
+	<body style="text-align:center; margin-left:auto; margin-right: auto;">
+		
+		<section >
+		
+			<h2>NEED A HEADER!</h2>
+			
+			<span>NOTE: Save the code in file "code.js"!</span>
+			
+			<br>
+			<br>
+			
+			<button type="button" onclick="getCode()">GET CODE</button>		
+			
+			<a id="save" onclick="saveCode()" style="text-decoration: none">
+			
+				<button type="button">SAVE CODE</button>
+				
+			</a>
+			
+			<button type="button" onclick="location.reload(true);">ACTIVATE CODE</button>
+			
+			<br>
+			<br>
+			<br>
+			
+			<textarea 	id="edit"
+						rows="25"
+						cols="50"
+						style="border: 1px solid red; width: 50%; margin-left: auto; margin-right: auto;"></textarea>
+					
+		</section>
+			
+		
+		<section>
+		
+			<br>
+			<br>
+			For more explanation please visit -
+			<a href = "https://github.com/Incrementis/Javascript-variable-hoisting-/wiki">Output code as string Wiki</a>
+			
+		</section>
+			
+	</body>
+
+	
+	
+	<footer>
+	
+		<script language = "javascript" type = "text/javascript" src = "main.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "code.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "call.js"></script>
+	
+	</footer>
+	 
+
+</html>
